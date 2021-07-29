@@ -16,11 +16,6 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'mean-stack-project'`, () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
-    expect(app.title).toEqual('mean-stack-project');
-  });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
